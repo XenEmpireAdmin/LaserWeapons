@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
   
   <!-- ======================Laser========================================-->
 
@@ -40,7 +40,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
+        <nameMaker>NamerArtWeaponGun</nameMaker>
         <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
@@ -136,10 +136,11 @@
       <AccuracyMedium>0.68</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>0.76</RangedWeapon_Cooldown>
+      <Mass>1</Mass>
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
       <LaserCapacitor>1</LaserCapacitor>
     </costList>
     <techLevel>Industrial</techLevel>
@@ -150,7 +151,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_LaserPistol</projectileDef>
+        <defaultProjectile>Bullet_LaserPistol</defaultProjectile>
         <warmupTime>0.3</warmupTime>
         <range>32</range>
         <soundCast>LazerShot</soundCast>
@@ -206,10 +207,11 @@
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.62</AccuracyLong>
       <RangedWeapon_Cooldown>0.76</RangedWeapon_Cooldown>
+      <Mass>1</Mass>
     </statBases>
     <costList>
       <Steel>90</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <LaserCapacitor>1</LaserCapacitor>
     </costList>
     <techLevel>Industrial</techLevel>
@@ -217,7 +219,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_LaserCarbine</projectileDef>
+        <defaultProjectile>Bullet_LaserCarbine</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>34</range>
         <soundCast>LazerShot</soundCast>
@@ -273,17 +275,18 @@
       <AccuracyMedium>0.80</AccuracyMedium>
       <AccuracyLong>0.67</AccuracyLong>
       <RangedWeapon_Cooldown>0.76</RangedWeapon_Cooldown>
+      <Mass>1</Mass>
     </statBases>
     <costList>
       <Steel>130</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <LaserCapacitor>1</LaserCapacitor>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_LaserRifle</projectileDef>
+        <defaultProjectile>Bullet_LaserRifle</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>36</range>
         <soundCast>LazerShot</soundCast>
@@ -339,17 +342,18 @@
       <AccuracyMedium>0.54</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.03</RangedWeapon_Cooldown>
+      <Mass>1</Mass>
     </statBases>
     <costList>
       <Steel>110</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <LaserCapacitor>1</LaserCapacitor>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_LaserScatter</projectileDef>
+        <defaultProjectile>Bullet_LaserScatter</defaultProjectile>
         <warmupTime>1.4</warmupTime>
         <range>30</range>
         <burstShotCount>6</burstShotCount>
@@ -407,17 +411,18 @@
       <AccuracyMedium>0.89</AccuracyMedium>
       <AccuracyLong>0.91</AccuracyLong>
       <RangedWeapon_Cooldown>2.03</RangedWeapon_Cooldown>
+      <Mass>1</Mass>
     </statBases>
     <costList>
       <Steel>150</Steel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <LaserCapacitor>1</LaserCapacitor>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_LaserPrecision</projectileDef>
+        <defaultProjectile>Bullet_LaserPrecision</defaultProjectile>
         <warmupTime>4.0</warmupTime>
         <range>52</range>
         <soundCast>LazerShot</soundCast>
@@ -476,17 +481,18 @@
       <AccuracyMedium>0.80</AccuracyMedium>
       <AccuracyLong>0.67</AccuracyLong>
       <RangedWeapon_Cooldown>0.76</RangedWeapon_Cooldown>
+      <Mass>1</Mass>
     </statBases>
     <costList>
       <Steel>130</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <LaserCapacitor>1</LaserCapacitor>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_LaserShotgun</projectileDef>
+        <defaultProjectile>Bullet_LaserShotgun</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>24</range>
         <burstShotCount>3</burstShotCount>
@@ -498,4 +504,4 @@
     </verbs>
   </ThingDef>
   
-</ThingDefs>
+</Defs>

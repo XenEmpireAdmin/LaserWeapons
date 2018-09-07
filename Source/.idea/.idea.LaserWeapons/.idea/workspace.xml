@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bcd7f37-6000-449a-9825-ec395ee88490" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="Projectile_FusionGrenade.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LaserWeapons/Projectile_FusionGrenade.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="42" column="145" lean-forward="true" selection-start-line="42" selection-start-column="140" selection-end-line="42" selection-end-column="163" />
+              <folding>
+                <marker date="1535962976956" expanded="false" signature="6:61" ph="..." />
+                <marker date="1535962976956" expanded="true" signature="85:3415" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="142:3413" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="229:376" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="412:692" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="491:682" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="596:668" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="747:1013" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="814:898" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="1054:1966" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="1602:1956" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="2041:2624" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="2137:2189" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="2693:3407" ph="{...}" />
+                <marker date="1535962976956" expanded="true" signature="2789:2841" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projectile_Laser.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LaserWeapons/Projectile_Laser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="352" column="17" lean-forward="true" selection-start-line="352" selection-start-column="16" selection-end-line="352" selection-end-column="91" />
+              <folding>
+                <marker date="1535966534711" expanded="false" signature="6:155" ph="..." />
+                <marker date="1535966534711" expanded="true" signature="179:15365" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="228:15363" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="1135:1302" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="1312:1385" ph="/// Get parameters from XML. ... " />
+                <marker date="1535966534711" expanded="true" signature="1428:2058" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="2068:2198" ph="/// Save/load data from a savegame file (apparently not used for projectile for now). ... " />
+                <marker date="1535966534711" expanded="true" signature="2240:2490" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="2412:2480" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="2500:2574" ph="/// Main projectile sequence. ... " />
+                <marker date="1535966534711" expanded="true" signature="2610:4077" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="2633:2818" ph="/* Directly call the Projectile base Tick function (we want to completely override the Projectile Tick() function ... */" />
+                <marker date="1535966534711" expanded="true" signature="2865:2978" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="3055:3132" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="3215:3317" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="3362:3440" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="3524:3602" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="3641:4039" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="3935:4025" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="4095:4193" ph="/// Performs prefiring treatment: data initalization. ... " />
+                <marker date="1535966534711" expanded="true" signature="4249:4757" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="4775:4862" ph="/// Gets the prefiring drawing parameters. ... " />
+                <marker date="1535966534711" expanded="true" signature="4922:5176" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="4972:5166" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="5186:5274" ph="/// Gets the postfiring drawing parameters. ... " />
+                <marker date="1535966534711" expanded="true" signature="5335:5625" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="5386:5615" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="5635:5764" ph="/// Checks for colateral targets (cover, neutral animal, pawn) along the trajectory. ... " />
+                <marker date="1535966534711" expanded="true" signature="5818:9568" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="6465:9558" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="6660:6784" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="6903:9483" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="7060:9465" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="7253:7543" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="7667:9443" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="7866:7995" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="8179:8306" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="8339:8940" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="8437:8578" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="8615:8910" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="8722:8876" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="9103:9417" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="9578:9669" ph="/// Manages the projectile damage application. ... " />
+                <marker date="1535966534711" expanded="true" signature="9704:9764" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="9774:9872" ph="/// Applies damage on a collateral pawn or an object. ... " />
+                <marker date="1535966534711" expanded="true" signature="9923:10174" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="9967:10079" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="10096:10164" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="10184:10289" ph="/// Computes what should be impacted in the DestinationCell. ... " />
+                <marker date="1535966534711" expanded="true" signature="10328:12730" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="10372:10900" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="10465:10895" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="10501:10674" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="10798:10889" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="10980:12430" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="11190:11499" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="11441:11493" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="11597:12390" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="11719:12199" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="11911:11947" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="12087:12192" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="12209:12266" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="12293:12384" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="12642:12687" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="12739:12824" ph="/// Impacts a pawn/object or the ground. ... " />
+                <marker date="1535966534711" expanded="true" signature="12879:14248" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="12990:13927" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="13600:13913" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="13944:14238" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="14266:14335" ph="/// Draws the laser ray. ... " />
+                <marker date="1535966534711" expanded="true" signature="14371:14573" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="14643:15357" ph="{...}" />
+                <marker date="1535966534711" expanded="true" signature="14739:14791" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompExtraDamage.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LaserWeapons/CompExtraDamage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+              <folding>
+                <marker date="1535970172591" expanded="false" signature="6:130" ph="..." />
+                <marker date="1535970172591" expanded="true" signature="154:1192" ph="{...}" />
+                <marker date="1535970172591" expanded="true" signature="201:1190" ph="{...}" />
+                <marker date="1535970172591" expanded="true" signature="449:1011" ph="{...}" />
+                <marker date="1535970172591" expanded="true" signature="603:817" ph="{...}" />
+                <marker date="1535970172591" expanded="true" signature="834:1001" ph="{...}" />
+                <marker date="1535970172591" expanded="true" signature="1057:1184" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log.</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/LaserWeapons/Projectile_FusionGrenade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LaserWeapons/CompExtraDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LaserWeapons/Projectile_Laser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LaserWeapons/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LaserWeapons/Projectile_FusionGrenade.cs" />
+        <option value="$PROJECT_DIR$/LaserWeapons/Projectile_Laser.cs" />
+        <option value="$PROJECT_DIR$/LaserWeapons/CompExtraDamage.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="200" />
+    <option name="y" value="132" />
+    <option name="width" value="3300" />
+    <option name="height" value="1677" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LaserWeapons (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LaserWeapons (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="LaserWeapons" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../RimWorldWin64_Data/Managed/UnityEngine.dll" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bcd7f37-6000-449a-9825-ec395ee88490" name="Default" comment="" />
+      <created>1535962161670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535962161670</updated>
+      <workItem from="1535962165383" duration="4375000" />
+      <workItem from="1535969773445" duration="999000" />
+      <workItem from="1536011496783" duration="499000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5873000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="200" y="132" width="3300" height="1677" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LaserWeapons/Projectile_FusionGrenade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <marker date="1535962976956" expanded="false" signature="6:61" ph="..." />
+            <marker date="1535962976956" expanded="true" signature="85:3415" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="142:3413" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="229:376" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="412:692" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="491:682" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="596:668" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="747:1013" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="814:898" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="1054:1966" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="1602:1956" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2041:2624" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2137:2189" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2693:3407" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2789:2841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LaserWeapons/Projectile_Laser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7744">
+          <caret line="359" column="142" lean-forward="false" selection-start-line="359" selection-start-column="142" selection-end-line="359" selection-end-column="142" />
+          <folding>
+            <marker date="1535966534711" expanded="false" signature="6:155" ph="..." />
+            <marker date="1535966534711" expanded="true" signature="179:15365" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="228:15363" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="1135:1302" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="1312:1385" ph="/// Get parameters from XML. ... " />
+            <marker date="1535966534711" expanded="true" signature="1428:2058" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2068:2198" ph="/// Save/load data from a savegame file (apparently not used for projectile for now). ... " />
+            <marker date="1535966534711" expanded="true" signature="2240:2490" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2412:2480" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2500:2574" ph="/// Main projectile sequence. ... " />
+            <marker date="1535966534711" expanded="true" signature="2610:4077" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2633:2818" ph="/* Directly call the Projectile base Tick function (we want to completely override the Projectile Tick() function ... */" />
+            <marker date="1535966534711" expanded="true" signature="2865:2978" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3055:3132" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3215:3317" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3362:3440" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3524:3602" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3641:4039" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3935:4025" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="4095:4193" ph="/// Performs prefiring treatment: data initalization. ... " />
+            <marker date="1535966534711" expanded="true" signature="4249:4757" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="4775:4862" ph="/// Gets the prefiring drawing parameters. ... " />
+            <marker date="1535966534711" expanded="true" signature="4922:5176" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="4972:5166" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="5186:5274" ph="/// Gets the postfiring drawing parameters. ... " />
+            <marker date="1535966534711" expanded="true" signature="5335:5625" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="5386:5615" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="5635:5764" ph="/// Checks for colateral targets (cover, neutral animal, pawn) along the trajectory. ... " />
+            <marker date="1535966534711" expanded="true" signature="5818:9568" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="6465:9558" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="6660:6784" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="6903:9483" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7060:9465" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7253:7543" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7667:9443" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7866:7995" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8179:8306" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8339:8940" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8437:8578" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8615:8910" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8722:8876" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9103:9417" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9578:9669" ph="/// Manages the projectile damage application. ... " />
+            <marker date="1535966534711" expanded="true" signature="9704:9764" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9774:9872" ph="/// Applies damage on a collateral pawn or an object. ... " />
+            <marker date="1535966534711" expanded="true" signature="9923:10174" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9967:10079" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10096:10164" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10184:10289" ph="/// Computes what should be impacted in the DestinationCell. ... " />
+            <marker date="1535966534711" expanded="true" signature="10328:12730" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10372:10900" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10465:10895" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10501:10674" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10798:10889" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10980:12430" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11190:11499" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11441:11493" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11597:12390" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11719:12199" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11911:11947" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12087:12192" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12209:12266" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12293:12384" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12642:12687" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12739:12824" ph="/// Impacts a pawn/object or the ground. ... " />
+            <marker date="1535966534711" expanded="true" signature="12879:14248" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12990:13927" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="13600:13913" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="13944:14238" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="14266:14335" ph="/// Draws the laser ray. ... " />
+            <marker date="1535966534711" expanded="true" signature="14371:14573" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="14643:15357" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="14739:14791" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LaserWeapons/CompExtraDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <marker date="1535970172591" expanded="false" signature="6:130" ph="..." />
+            <marker date="1535970172591" expanded="true" signature="154:1192" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="201:1190" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="449:1011" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="603:817" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="834:1001" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="1057:1184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LaserWeapons/Projectile_FusionGrenade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <marker date="1535962976956" expanded="false" signature="6:61" ph="..." />
+            <marker date="1535962976956" expanded="true" signature="85:3415" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="142:3413" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="229:376" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="412:692" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="491:682" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="596:668" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="747:1013" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="814:898" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="1054:1966" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="1602:1956" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2041:2624" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2137:2189" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2693:3407" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2789:2841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LaserWeapons/Projectile_Laser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7744">
+          <caret line="359" column="142" lean-forward="false" selection-start-line="359" selection-start-column="142" selection-end-line="359" selection-end-column="142" />
+          <folding>
+            <marker date="1535966534711" expanded="false" signature="6:155" ph="..." />
+            <marker date="1535966534711" expanded="true" signature="179:15365" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="228:15363" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="1135:1302" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="1312:1385" ph="/// Get parameters from XML. ... " />
+            <marker date="1535966534711" expanded="true" signature="1428:2058" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2068:2198" ph="/// Save/load data from a savegame file (apparently not used for projectile for now). ... " />
+            <marker date="1535966534711" expanded="true" signature="2240:2490" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2412:2480" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2500:2574" ph="/// Main projectile sequence. ... " />
+            <marker date="1535966534711" expanded="true" signature="2610:4077" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2633:2818" ph="/* Directly call the Projectile base Tick function (we want to completely override the Projectile Tick() function ... */" />
+            <marker date="1535966534711" expanded="true" signature="2865:2978" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3055:3132" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3215:3317" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3362:3440" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3524:3602" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3641:4039" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3935:4025" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="4095:4193" ph="/// Performs prefiring treatment: data initalization. ... " />
+            <marker date="1535966534711" expanded="true" signature="4249:4757" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="4775:4862" ph="/// Gets the prefiring drawing parameters. ... " />
+            <marker date="1535966534711" expanded="true" signature="4922:5176" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="4972:5166" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="5186:5274" ph="/// Gets the postfiring drawing parameters. ... " />
+            <marker date="1535966534711" expanded="true" signature="5335:5625" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="5386:5615" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="5635:5764" ph="/// Checks for colateral targets (cover, neutral animal, pawn) along the trajectory. ... " />
+            <marker date="1535966534711" expanded="true" signature="5818:9568" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="6465:9558" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="6660:6784" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="6903:9483" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7060:9465" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7253:7543" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7667:9443" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7866:7995" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8179:8306" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8339:8940" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8437:8578" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8615:8910" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8722:8876" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9103:9417" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9578:9669" ph="/// Manages the projectile damage application. ... " />
+            <marker date="1535966534711" expanded="true" signature="9704:9764" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9774:9872" ph="/// Applies damage on a collateral pawn or an object. ... " />
+            <marker date="1535966534711" expanded="true" signature="9923:10174" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9967:10079" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10096:10164" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10184:10289" ph="/// Computes what should be impacted in the DestinationCell. ... " />
+            <marker date="1535966534711" expanded="true" signature="10328:12730" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10372:10900" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10465:10895" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10501:10674" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10798:10889" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10980:12430" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11190:11499" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11441:11493" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11597:12390" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11719:12199" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11911:11947" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12087:12192" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12209:12266" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12293:12384" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12642:12687" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12739:12824" ph="/// Impacts a pawn/object or the ground. ... " />
+            <marker date="1535966534711" expanded="true" signature="12879:14248" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12990:13927" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="13600:13913" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="13944:14238" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="14266:14335" ph="/// Draws the laser ray. ... " />
+            <marker date="1535966534711" expanded="true" signature="14371:14573" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="14643:15357" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="14739:14791" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LaserWeapons/CompExtraDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <marker date="1535970172591" expanded="false" signature="6:130" ph="..." />
+            <marker date="1535970172591" expanded="true" signature="154:1192" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="201:1190" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="449:1011" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="603:817" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="834:1001" ph="{...}" />
+            <marker date="1535970172591" expanded="true" signature="1057:1184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LaserWeapons/Projectile_Laser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="352" column="17" lean-forward="true" selection-start-line="352" selection-start-column="16" selection-end-line="352" selection-end-column="91" />
+          <folding>
+            <marker date="1535966534711" expanded="false" signature="6:155" ph="..." />
+            <marker date="1535966534711" expanded="true" signature="179:15365" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="228:15363" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="1135:1302" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="1312:1385" ph="/// Get parameters from XML. ... " />
+            <marker date="1535966534711" expanded="true" signature="1428:2058" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2068:2198" ph="/// Save/load data from a savegame file (apparently not used for projectile for now). ... " />
+            <marker date="1535966534711" expanded="true" signature="2240:2490" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2412:2480" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2500:2574" ph="/// Main projectile sequence. ... " />
+            <marker date="1535966534711" expanded="true" signature="2610:4077" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="2633:2818" ph="/* Directly call the Projectile base Tick function (we want to completely override the Projectile Tick() function ... */" />
+            <marker date="1535966534711" expanded="true" signature="2865:2978" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3055:3132" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3215:3317" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3362:3440" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3524:3602" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3641:4039" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="3935:4025" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="4095:4193" ph="/// Performs prefiring treatment: data initalization. ... " />
+            <marker date="1535966534711" expanded="true" signature="4249:4757" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="4775:4862" ph="/// Gets the prefiring drawing parameters. ... " />
+            <marker date="1535966534711" expanded="true" signature="4922:5176" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="4972:5166" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="5186:5274" ph="/// Gets the postfiring drawing parameters. ... " />
+            <marker date="1535966534711" expanded="true" signature="5335:5625" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="5386:5615" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="5635:5764" ph="/// Checks for colateral targets (cover, neutral animal, pawn) along the trajectory. ... " />
+            <marker date="1535966534711" expanded="true" signature="5818:9568" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="6465:9558" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="6660:6784" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="6903:9483" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7060:9465" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7253:7543" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7667:9443" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="7866:7995" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8179:8306" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8339:8940" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8437:8578" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8615:8910" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="8722:8876" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9103:9417" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9578:9669" ph="/// Manages the projectile damage application. ... " />
+            <marker date="1535966534711" expanded="true" signature="9704:9764" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9774:9872" ph="/// Applies damage on a collateral pawn or an object. ... " />
+            <marker date="1535966534711" expanded="true" signature="9923:10174" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="9967:10079" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10096:10164" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10184:10289" ph="/// Computes what should be impacted in the DestinationCell. ... " />
+            <marker date="1535966534711" expanded="true" signature="10328:12730" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10372:10900" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10465:10895" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10501:10674" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10798:10889" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="10980:12430" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11190:11499" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11441:11493" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11597:12390" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11719:12199" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="11911:11947" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12087:12192" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12209:12266" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12293:12384" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12642:12687" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12739:12824" ph="/// Impacts a pawn/object or the ground. ... " />
+            <marker date="1535966534711" expanded="true" signature="12879:14248" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="12990:13927" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="13600:13913" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="13944:14238" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="14266:14335" ph="/// Draws the laser ray. ... " />
+            <marker date="1535966534711" expanded="true" signature="14371:14573" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="14643:15357" ph="{...}" />
+            <marker date="1535966534711" expanded="true" signature="14739:14791" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LaserWeapons/Projectile_FusionGrenade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="42" column="145" lean-forward="true" selection-start-line="42" selection-start-column="140" selection-end-line="42" selection-end-column="163" />
+          <folding>
+            <marker date="1535962976956" expanded="false" signature="6:61" ph="..." />
+            <marker date="1535962976956" expanded="true" signature="85:3415" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="142:3413" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="229:376" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="412:692" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="491:682" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="596:668" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="747:1013" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="814:898" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="1054:1966" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="1602:1956" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2041:2624" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2137:2189" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2693:3407" ph="{...}" />
+            <marker date="1535962976956" expanded="true" signature="2789:2841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

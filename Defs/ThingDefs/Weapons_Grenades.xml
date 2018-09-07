@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <!-- ==================== Bases ========================== -->
 
@@ -47,8 +47,8 @@
       <flyOverhead>false</flyOverhead>
     </projectile>
   </ThingDef>
-
-  <!-- ==================== Fusion grenade ========================== -->
+  
+  <!-- ==================== Fusion grenade ==========================
 
   <ThingDef ParentName="BaseGrenadeProjectile">
     <defName>Proj_GrenadeFusion</defName>
@@ -75,7 +75,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/Laser/FusionGrenades</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractGrenade</soundInteract>
+    <soundInteract>Interact_Grenade</soundInteract>
     <techLevel>Industrial</techLevel>
     <statBases>
       <MarketValue>600</MarketValue>
@@ -101,7 +101,7 @@
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <projectileDef>Proj_GrenadeFusion</projectileDef>
+        <defaultProjectile>Proj_GrenadeFusion</defaultProjectile>
       </li>
     </verbs>
     <smeltProducts>
@@ -109,4 +109,6 @@
     </smeltProducts>
   </ThingDef>
 
-</ThingDefs>
+   -->
+
+</Defs>

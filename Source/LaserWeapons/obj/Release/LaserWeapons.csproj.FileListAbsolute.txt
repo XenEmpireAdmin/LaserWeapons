@@ -9,3 +9,17 @@ C:\Users\TJX\Desktop\RWStuff\A16ModBackup\Lasers\Source\LaserWeapons\bin\Release
 C:\Users\TJX\Desktop\RWStuff\A16ModBackup\Lasers\Source\LaserWeapons\bin\Release\UnityEngine.xml
 C:\Users\TJX\Desktop\RWStuff\A16ModBackup\Lasers\Source\LaserWeapons\obj\Release\LaserWeapons.dll
 C:\Users\TJX\Desktop\RWStuff\A16ModBackup\Lasers\Source\LaserWeapons\obj\Release\LaserWeapons.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\bin\Release\LaserWeapons.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\bin\Release\LaserWeapons.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\bin\Release\Assembly-CSharp.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\bin\Release\UnityEngine.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\bin\Release\TextMeshPro-1.0.55.56.0b11.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\bin\Release\Assembly-CSharp-firstpass.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\bin\Release\NAudio.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\bin\Release\NVorbis.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\bin\Release\UnityEngine.UI.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\obj\Release\LaserWeapons.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\obj\Release\LaserWeapons.csproj.CoreCompileInputs.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\obj\Release\LaserWeapons.csproj.CopyComplete
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\obj\Release\LaserWeapons.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Lasers\Source\LaserWeapons\obj\Release\LaserWeapons.pdb

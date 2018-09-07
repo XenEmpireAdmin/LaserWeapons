@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
   <RecipeDef>
     <defName>RepairLaserPistol</defName>
@@ -11,11 +11,8 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
-    </skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
       <li>TableMachining</li>
@@ -32,7 +29,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Component</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -52,7 +49,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Plasteel</li>
-        <li>Component</li>
+        <li>ComponentIndustrial</li>
         <li>Gun_LaserPistol</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -68,11 +65,8 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
-    </skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
       <li>TableMachining</li>
@@ -89,7 +83,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Component</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -109,7 +103,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Plasteel</li>
-        <li>Component</li>
+        <li>ComponentIndustrial</li>
         <li>Gun_LaserCarbine</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -125,11 +119,8 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
-    </skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
       <li>TableMachining</li>
@@ -146,7 +137,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Component</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -166,7 +157,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Plasteel</li>
-        <li>Component</li>
+        <li>ComponentIndustrial</li>
         <li>Gun_LaserRifle</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -182,11 +173,8 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
-    </skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
       <li>TableMachining</li>
@@ -203,7 +191,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Component</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -223,7 +211,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Plasteel</li>
-        <li>Component</li>
+        <li>ComponentIndustrial</li>
         <li>Gun_LaserScatter</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -239,10 +227,7 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
+      	<Crafting>12</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -260,7 +245,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Component</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -280,7 +265,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Plasteel</li>
-        <li>Component</li>
+        <li>ComponentIndustrial</li>
         <li>Gun_LaserPrecision</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -296,10 +281,7 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
+      	<Crafting>12</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -317,7 +299,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Component</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -337,10 +319,10 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Plasteel</li>
-        <li>Component</li>
+        <li>ComponentIndustrial</li>
         <li>Gun_LaserShotgun</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
   
-</RecipeDefs>
+</Defs>

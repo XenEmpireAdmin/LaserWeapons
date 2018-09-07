@@ -38,7 +38,9 @@ namespace LaserWeapons
         protected virtual void Explode()
         {
             this.Destroy(DestroyMode.Vanish);
-            GenExplosion.DoExplosion(base.Position, Map, this.def.projectile.explosionRadius, this.def.projectile.damageDef, this.launcher, this.def.projectile.soundExplode, this.def, this.equipmentDef, this.def.projectile.postExplosionSpawnThingDef, this.def.projectile.explosionSpawnChance, 0, false, null, 0, 0);
+            int damageAmount = base.DamageAmount;
+            float armorPen = base.ArmorPenetration;
+            GenExplosion.DoExplosion(base.Position, Map, this.def.projectile.explosionRadius, this.def.projectile.damageDef, this.launcher, damageAmount, armorPen, this.def.projectile.soundExplode, this.def, this.equipmentDef, null, this.def.projectile.postExplosionSpawnThingDef, this.def.projectile.postExplosionSpawnChance, 0, false, null, 0, 0);
             for (int i = 0; i < 4; i++)
             {
                 ThrowSmokeRed(Position.ToVector3Shifted() + Gen.RandomHorizontalVector(this.def.projectile.explosionRadius * 0.7f), Map, this.def.projectile.explosionRadius * 0.6f);

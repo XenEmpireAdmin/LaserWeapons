@@ -181,7 +181,7 @@ namespace LaserWeapons
                     break;
                 }
 
-                if (!this.def.projectile.flyOverhead && this.FreeIntercept && segmentIndex >= 5)
+                if (!this.def.projectile.flyOverhead && this.def.projectile.alwaysFreeIntercept && segmentIndex >= 5)
                 {
                     List<Thing> list = Map.thingGrid.ThingsListAt(base.Position);
                     for (int i = 0; i < list.Count; i++)
@@ -267,43 +267,78 @@ namespace LaserWeapons
         /// <summary>
         /// Computes what should be impacted in the DestinationCell.
         /// </summary>
-        protected void ImpactSomething()
-        {
-            // Impact the initial targeted pawn.
-            if (this.assignedTarget != null)
-            {
-                Pawn pawn = this.assignedTarget as Pawn;
-                if (pawn != null && pawn.Downed && (this.origin - this.destination).magnitude > 5f && Rand.Value < 0.2f)
-                {
-                    this.Impact(null);
-                    return;
-                }
-                this.Impact(this.assignedTarget);
-                return;
-            }
-            else
-            {
-                // Impact a pawn in the destination cell if present.
-                Thing thing = Map.thingGrid.ThingAt(this.DestinationCell, ThingCategory.Pawn);
-                if (thing != null)
-                {
-                    this.Impact(thing);
-                    return;
-                }
-                // Impact any cover object.
-                foreach (Thing current in Map.thingGrid.ThingsAt(this.DestinationCell))
-                {
-                    if (current.def.fillPercent > 0f || current.def.passability != Traversability.Standable)
-                    {
-                        this.Impact(current);
-                        return;
-                    }
-                }
-                this.Impact(null);
-                return;
-            }
-        }
-
+        private void ImpactSomething()
+		{
+			if (this.def.projectile.flyOverhead)
+			{
+				RoofDef roofDef = base.Map.roofGrid.RoofAt(base.Position);
+				if (roofDef != null)
+				{
+					if (roofDef.isThickRoof)
+					{
+						this.def.projectile.soundHitThickRoof.PlayOneShot(new TargetInfo(base.Position, base.Map, false));
+						this.Destroy(DestroyMode.Vanish);
+						return;
+					}
+					if (base.Position.GetEdifice(base.Map) == null || base.Position.GetEdifice(base.Map).def.Fillage != FillCategory.Full)
+					{
+						RoofCollapserImmediate.DropRoofInCells(base.Position, base.Map, null);
+					}
+				}
+			}
+		    
+			if (!this.usedTarget.HasThing || !this.CanHit(this.usedTarget.Thing))
+			{
+			    List<Thing> cellThingsFilteredX = new List<Thing>();
+				cellThingsFilteredX.Clear();
+				List<Thing> thingList = base.Position.GetThingList(base.Map);
+				for (int i = 0; i < thingList.Count; i++)
+				{
+					Thing thing = thingList[i];
+					if ((thing.def.category == ThingCategory.Building || thing.def.category == ThingCategory.Pawn || thing.def.category == ThingCategory.Item || thing.def.category == ThingCategory.Plant) && this.CanHit(thing))
+					{
+						cellThingsFilteredX.Add(thing);
+					}
+				}
+				cellThingsFilteredX.Shuffle<Thing>();
+				for (int j = 0; j < cellThingsFilteredX.Count; j++)
+				{
+					Thing thing2 = cellThingsFilteredX[j];
+					Pawn pawn = thing2 as Pawn;
+					float num;
+					if (pawn != null)
+					{
+						num = 0.5f * Mathf.Clamp(pawn.BodySize, 0.1f, 2f);
+						if (pawn.GetPosture() != PawnPosture.Standing && (this.origin - this.destination).MagnitudeHorizontalSquared() >= 20.25f)
+						{
+							num *= 0.2f;
+						}
+						if (this.launcher != null && pawn.Faction != null && this.launcher.Faction != null && !pawn.Faction.HostileTo(this.launcher.Faction))
+						{
+							num *= VerbUtility.InterceptChanceFactorFromDistance(this.origin, base.Position);
+						}
+					}
+					else
+					{
+						num = 1.5f * thing2.def.fillPercent;
+					}
+					if (Rand.Chance(num))
+					{
+						this.Impact(cellThingsFilteredX.RandomElement<Thing>());
+						return;
+					}
+				}
+				this.Impact(null);
+				return;
+			}
+			Pawn pawn2 = this.usedTarget.Thing as Pawn;
+			if (pawn2 != null && pawn2.GetPosture() != PawnPosture.Standing && (this.origin - this.destination).MagnitudeHorizontalSquared() >= 20.25f && !Rand.Chance(0.2f))
+			{
+				this.Impact(null);
+				return;
+			}
+			this.Impact(this.usedTarget.Thing);
+		}
         /// <summary>
         /// Impacts a pawn/object or the ground.
         /// </summary>
@@ -313,20 +348,21 @@ namespace LaserWeapons
             base.Impact(hitThing);
             if (hitThing != null)
             {
-                int damageAmountBase = this.def.projectile.damageAmountBase;
+                int damageAmountBase = this.def.projectile.GetDamageAmount(DamageAmount);
                 ThingDef equipmentDef = this.equipmentDef;
-                DamageInfo dinfo = new DamageInfo(this.def.projectile.damageDef, damageAmountBase, this.ExactRotation.eulerAngles.y, this.launcher, null, equipmentDef);
+                float armorPen = this.def.projectile.GetArmorPenetration(ArmorPenetration);
+                DamageInfo dinfo = new DamageInfo(this.def.projectile.damageDef, damageAmountBase, armorPen, this.ExactRotation.eulerAngles.y, this.launcher, null, equipmentDef);
                 hitThing.TakeDamage(dinfo);
                 Pawn pawn = hitThing as Pawn;
                 if (pawn != null && !pawn.Downed && Rand.Value < compED.chanceToProc)
                 {
                     MoteMaker.ThrowMicroSparks(this.destination, Map);
-                    hitThing.TakeDamage(new DamageInfo(DefDatabase<DamageDef>.GetNamed(compED.damageDef, true), compED.damageAmount, this.ExactRotation.eulerAngles.y, this.launcher, null, null));
+                    hitThing.TakeDamage(new DamageInfo(DefDatabase<DamageDef>.GetNamed(compED.damageDef, true), compED.damageAmount, armorPen, this.ExactRotation.eulerAngles.y, this.launcher, null, null));
                 }
             }
             else
             {
-                SoundDefOf.BulletImpactGround.PlayOneShot(new TargetInfo(base.Position, map, false));
+                SoundDefOf.BulletImpact_Ground.PlayOneShot(new TargetInfo(base.Position, map, false));
                 MoteMaker.MakeStaticMote(this.ExactPosition, map, ThingDefOf.Mote_ShotHit_Dirt, 1f);
                 ThrowMicroSparksRed(this.ExactPosition, Map);
             }

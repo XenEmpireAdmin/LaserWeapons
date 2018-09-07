@@ -27,7 +27,7 @@ namespace LaserWeapons
             }
             else
             {
-                Log.Warning("Could not find a CompProperties_ExtraDamage for CompExtraDamage.");
+                Log.Message("Could not find a CompProperties_ExtraDamage for CompExtraDamage.", false);
                 this.count = 9876;
             }
         }

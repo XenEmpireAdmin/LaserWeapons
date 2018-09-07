@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <!--=============== Mortar turret ===============-->
   <ThingDef ParentName="BuildingBase">
@@ -7,7 +7,7 @@
     <label>laser guided mortar</label>
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
-      <texPath>Things/Building/Security/TurretMortarBase</texPath>
+      <texPath>Things/Building/Security/TurretMortar_Base</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(4,4)</drawSize>
     </graphicData>
@@ -50,17 +50,16 @@
     <costStuffCount>100</costStuffCount>
     <costList>
       <Steel>150</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Artillery_MortarLaser</turretGunDef>
-      <turretShellDef>LaserArtilleryShell</turretShellDef>
       <turretBurstWarmupTime>300</turretBurstWarmupTime>
       <turretBurstCooldownTime>3000</turretBurstCooldownTime>
-      <turretTopgraphicPath>Things/Building/TurretMortarLaser_Top</turretTopgraphicPath>
+      <turretTopGraphicPath>Things/Building/TurretMortarLaser_Top</turretTopGraphicPath>
       <buildingTags>
         <li>Artillery</li>
         <li>Artillery_BaseDestroyer</li>
@@ -74,4 +73,4 @@
     </researchPrerequisites>
   </ThingDef>
   
-</ThingDefs>
+</Defs>

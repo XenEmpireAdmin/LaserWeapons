@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
 
   <!-- gun def for artillery, never used as an independent thing-->
   <ThingDef Name="BaseArtilleryWeapon" Abstract="True">
@@ -8,7 +8,7 @@
     <label>artillery error</label>
     <equipmentType>Primary</equipmentType>
     <tickerType>Never</tickerType>
-    <techLevel>Midworld</techLevel>
+    <techLevel>Spacer</techLevel>
     <comps>
       <li>
         <compClass>CompEquippable</compClass>
@@ -33,7 +33,7 @@
       <speed>41</speed>
       <explosionRadius>1.5</explosionRadius>
       <flyOverhead>true</flyOverhead>
-      <soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <soundExplode>MortarBomb_Explode</soundExplode>
       <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
       <soundAmbient>MortarRound_Ambient</soundAmbient>
@@ -47,7 +47,7 @@
     <techLevel>Spacer</techLevel>
     <destroyOnDrop>True</destroyOnDrop>
     <menuHidden>True</menuHidden>
-    <tradeability>Never</tradeability>
+    <tradeability>None</tradeability>
     <statBases>
       <MarketValue>1500</MarketValue>
       <AccuracyTouch>0.89</AccuracyTouch>
@@ -65,7 +65,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_MortarLaser</projectileDef>
+        <defaultProjectile>Bullet_MortarLaser</defaultProjectile>
         <forcedMissRadius>3</forcedMissRadius>
         <warmupTime>5.8</warmupTime>
         <minRange>30</minRange>
@@ -77,4 +77,4 @@
     </verbs>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

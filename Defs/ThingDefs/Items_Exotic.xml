@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<GameData>
+<Defs>
 
-  <ThingDef Name="ResourceBaseNoRecipe" Abstract="True">
+  <ThingDef Name="ResourceBaseNoRecipeLS" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <label>unspecified resource</label>
     <category>Item</category>
@@ -24,7 +24,7 @@
     <pathCost>15</pathCost>
   </ThingDef>
 
-  <ThingDef ParentName="ResourceBaseNoRecipe">
+  <ThingDef ParentName="ResourceBaseNoRecipeLS">
     <defName>LaserCapacitor</defName>
     <label>Laser Capacitor</label>
     <description>A storage device using a very power electrical field.</description>
@@ -40,6 +40,7 @@
     <statBases>
       <MarketValue>300</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
     </statBases>
     <thingCategories>
       <li>Items</li>
@@ -50,4 +51,4 @@
     </tradeTags>
   </ThingDef>
 
-</GameData>
+</Defs>
